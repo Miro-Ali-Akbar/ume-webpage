@@ -34,15 +34,11 @@ a {
   color: var(--black);
 }
 
-/* ---------- Layout wrapper ---------- */
-
 .page-wrap {
   max-width: 50em;
   margin: 0 auto;
   padding: 0 1em;
 }
-
-/* ---------- Header / Nav ---------- */
 
 header#site-header {
   background-color: var(--focus);
@@ -91,8 +87,6 @@ nav#main-nav a:hover {
   transform: translate(-0.0625em, -0.0625em);
 }
 
-/* ---------- Main content ---------- */
-
 main {
   flex: 1 0 auto;
   padding: 2em 0 3em;
@@ -100,8 +94,6 @@ main {
   background-image: url('images/pattern.svg');
   background-repeat: repeat;
 }
-
-/* ---------- Sidebar layout (index page) ---------- */
 
 .main-layout {
   display: grid;
@@ -173,8 +165,6 @@ p {
   font-size: 1em;
 }
 
-/* ---------- Two column layout ---------- */
-
 .columns {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -202,8 +192,6 @@ p {
   display: block;
 }
 
-/* ---------- Skills list (horizontal -> vertical) ---------- */
-
 ul#skills-list {
   list-style: none;
   display: flex;
@@ -221,8 +209,6 @@ ul#skills-list li {
   padding: 0.3em 0.9em;
   font-size: 0.9em;
 }
-
-/* ---------- Socials list ---------- */
 
 ul#socials-list {
   list-style: none;
@@ -243,8 +229,6 @@ ul#socials-list a {
   text-decoration: none;
 }
 
-/* ---------- Misc effects ---------- */
-
 .badge {
   display: inline-block;
   background-color: var(--red);
@@ -259,8 +243,6 @@ ul#socials-list a {
   0%, 100% { opacity: 1; }
   50% { opacity: 0.6; }
 }
-
-/* ---------- Footer ---------- */
 
 footer#site-footer {
   background-color: var(--black);
@@ -289,14 +271,11 @@ footer#site-footer p {
   margin: 0;
 }
 
-/* ---------- Responsive ---------- */
-
 @media (max-width: 650px) {
   .page-wrap {
     max-width: 100%;
   }
 
-  /* nav stays horizontal on small screens; just tighten it up */
   nav#main-nav ul {
     gap: 0.3em;
   }

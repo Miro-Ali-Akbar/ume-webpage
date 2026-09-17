@@ -276,7 +276,8 @@ footer#site-footer {
 footer#site-footer .page-wrap {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
+  text-align: center;
   flex-wrap: wrap;
   gap: 0.75em;
   padding-top: 1.5em;
@@ -286,6 +287,11 @@ footer#site-footer .page-wrap {
 
 footer#site-footer a {
   color: var(--off-white);
+}
+
+footer#site-footer p {
+  text-align: center;
+  margin: 0;
 }
 
 /* ---------- Responsive ---------- */

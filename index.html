@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Miro Ali Akbar</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header id="site-header">
+    <div class="page-wrap">
+      <h1><a href="index.html">Miro Ali Akbar</a></h1>
+      <nav id="main-nav" aria-label="Main navigation">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <div class="page-wrap main-layout">
+
+      <nav class="page-nav" aria-label="On this page">
+        <h2>On this page</h2>
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#gallery">Gallery</a></li>
+        </ul>
+      </nav>
+
+      <div class="page-content">
+
+        <section id="about">
+          <h2>About</h2>
+          <p>My name is Miro. I am currently studying for my masters in IT at the University of
+            Uppsala. I also do stuff like my projects described on the projects page, but when
+            I'm not doing that I am working with and integrating vending machines for Impact
+            Solution.</p>
+        </section>
+
+        <section id="skills">
+          <h2>Skills</h2>
+          <p>My main interest in IT is in systems architecture and integration between said
+            systems. In other words, making all the small cogs work together in a machine or
+            system. This often renders fun challenges like reading legacy code and integrating
+            half broken software that presents the added challenge of adapting. The satisfying
+            part thus comes from building a working system regardless of what the underlying
+            components look like.</p>
+          <p>In terms of language proficiency and experience I'm a quick learner but have the
+            most experience in TypeScript/JavaScript, Python, and C. I know both SQL and noSQL
+            databases and have a large understanding and proficiency in integrating and
+            creating API's along with server and networking creation.</p>
+          <ul id="skills-list">
+            <li>TypeScript / JavaScript</li>
+            <li>Python</li>
+            <li>C</li>
+            <li>SQL &amp; noSQL</li>
+            <li>API integration</li>
+            <li>Systems architecture</li>
+          </ul>
+        </section>
+
+        <section id="gallery" class="columns">
+          <div class="card">
+            <img src="images/ink-preview.png" alt="Ink preview">
+            <h3><a href="https://github.com/Miro-Ali-Akbar/Ink" target="_blank">Ink</a></h3>
+            <p>A daily todo script that opens a dated markdown file in your terminal editor and
+              renders it as your GNOME wallpaper on save. Used as a daily todo list and reminder
+              that work is never done. Written in bash with a Python stdlib renderer.</p>
+          </div>
+          <div class="card">
+            <img src="images/YAGF-preview.png" alt="YAGF preview">
+            <h3><a href="https://github.com/Miro-Ali-Akbar/YAGF" target="_blank">YAGF</a></h3>
+            <p>Yet-Another-Github-Filler is an automated script designed to artificially
+              increase the amount of commits done, boosting the user's GitHub front page
+              contribution graph. Written as a simple bash script using git and the gh CLI to
+              produce pull requests and comments.</p>
+          </div>
+        </section>
+
+      </div>
+    </div>
+  </main>
+
+  <footer id="site-footer">
+    <div class="page-wrap">
+      <p>Also available on <a href="https://ume.miro.zip">ume.miro.zip</a>.
+        Based on <a href="https://miro.zip">miro.zip</a>.</p>
+    </div>
+  </footer>
+</body>
+
+</html>

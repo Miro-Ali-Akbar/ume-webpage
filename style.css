@@ -260,11 +260,6 @@ ul#socials-list a {
   50% { opacity: 0.6; }
 }
 
-.faded-note {
-  opacity: 0.65;
-  font-size: 0.85em;
-}
-
 /* ---------- Footer ---------- */
 
 footer#site-footer {
